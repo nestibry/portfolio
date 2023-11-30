@@ -1,0 +1,19 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    /* Color Palette */
+    --black-and-blue: #17252A;
+    --dark-cyan: #2B7A78;
+    --modr-cyan: #3AAFA9;
+    --lght-cyan: #DEF2F2;
+    --light-cyan: #b2d8d6;
+    --pale-cyan: #FEFFFF;
+    background-color: var(--dark-cyan);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
