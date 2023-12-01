@@ -7,13 +7,14 @@ header {
     background-color: var(--black-and-blue);
 }
 
-header h1,
 .navBrand {
     /* 4rem = 40px (4 * 10px) */
     font-size: 4rem;
     /* padding: 2.5rem; */
     margin: 0rem;
     color: var(--pale-cyan);
+    text-decoration: none;
+    font-weight: 700;
 }
 
 nav {
@@ -23,7 +24,6 @@ nav {
     min-width: 100%;
 }
 
-nav a,
 .navlinks {
     text-decoration: none;
     font-size: 2rem;
@@ -34,7 +34,6 @@ nav a,
     border-bottom: 1px solid var(--black-and-blue);
 }
 
-nav a:hover,
 .navlinks:hover {
     background-color: var(--lighter-cyan);
     color: var(--black-and-blue);
@@ -42,22 +41,21 @@ nav a:hover,
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 /* @media screen and (min-width: 768px) { */
-    @media screen and (min-width: 992px) {
-        header {
-            flex-direction: row;
-        }
-        nav {
-            flex-direction: row;
-            justify-content: space-between;
-            min-width: 650px;
-            padding: 0rem 3rem;
-        }
-        nav a,
-        .navlinks {
-            background-color: var(--dark-cyan);
-            border-radius: 25px;
-            width: 135px;
-            
-        }
+@media screen and (min-width: 992px) {
+    header {
+        flex-direction: row;
     }
-    
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 650px;
+        padding: 0rem 3rem;
+    }
+
+    .navlinks {
+        background-color: var(--dark-cyan);
+        border-radius: 25px;
+        width: 135px;
+    }
+}
