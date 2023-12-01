@@ -1,7 +1,6 @@
 header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     background-color: var(--black-and-blue);
@@ -9,12 +8,12 @@ header {
 
 .navBrand {
     /* 4rem = 40px (4 * 10px) */
-    font-size: 4rem;
-    /* padding: 2.5rem; */
-    margin: 0rem;
+    font-size: 4.25rem;
+    line-height: 1;
     color: var(--pale-cyan);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
+    padding: 1.5rem 0rem;
 }
 
 nav {
@@ -44,18 +43,25 @@ nav {
 @media screen and (min-width: 992px) {
     header {
         flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 0rem;
+    }
+    
+    .navBrand {
+        padding-left: 3rem;
+        margin-bottom: .5rem;
     }
 
     nav {
         flex-direction: row;
-        justify-content: space-between;
-        min-width: 650px;
-        padding: 0rem 3rem;
+        justify-content: flex-end;
+        min-width: 50%;
+        padding: 0rem 2rem;
     }
 
     .navlinks {
-        background-color: var(--dark-cyan);
         border-radius: 25px;
         width: 135px;
+        margin-right: 1rem;
     }
 }
