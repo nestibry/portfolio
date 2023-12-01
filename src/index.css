@@ -1,19 +1,67 @@
-:root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-  
+:root{
     /* Color Palette */
     --black-and-blue: #17252A;
     --dark-cyan: #2B7A78;
     --modr-cyan: #3AAFA9;
-    --lght-cyan: #DEF2F2;
     --light-cyan: #b2d8d6;
+    --lighter-cyan: #DEF2F2;
     --pale-cyan: #FEFFFF;
-    background-color: var(--dark-cyan);
+}
+
+html {
+    /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+    font-size: 62.5%;
+}
+
+body {
+    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--black-and-blue);
+    background-color: var(--lighter-cyan);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.625rem;
+    color: var(--lght-cyan);
+    font-weight: 700;
+    line-height: 1.1;
+}
+  
+h1 {
+    /* 4rem = 40px (4 * 10px) */
+    font-size: 4rem;
+}
+  
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
