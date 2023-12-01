@@ -7,7 +7,8 @@ header {
     background-color: var(--black-and-blue);
 }
 
-header h1 {
+header h1,
+.navBrand {
     /* 4rem = 40px (4 * 10px) */
     font-size: 4rem;
     /* padding: 2.5rem; */

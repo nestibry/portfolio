@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 import './Header.css';
 
@@ -7,14 +7,12 @@ export default function Header() {
     return (
         <>
             <header>
-                <h1>Bryan Nestingen</h1>
+                <NavLink to='/' className="navBrand">Bryan Nestingen</NavLink>
                 <nav>
-                    <>
-                        <Link to='/contact' className="navlinks">About Me</Link>
-                        <a href="#portfolio">Portfolio</a>
-                        <a href="#resume">Resume</a>
-                        <a href="#contact">Contact</a>
-                    </>
+                    <NavLink to='/' className="navlinks">About Me</NavLink>
+                    <NavLink to='/portfolio' className="navlinks">Portfolio</NavLink>
+                    <NavLink to='/resume' className="navlinks">Resume</NavLink>
+                    <NavLink to='/contact' className="navlinks">Contact</NavLink>
                 </nav>
             </header>
         </>
