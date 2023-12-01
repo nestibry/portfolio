@@ -22,7 +22,8 @@ nav {
     min-width: 100%;
 }
 
-nav a {
+nav a,
+.navlinks {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
@@ -32,7 +33,8 @@ nav a {
     border-bottom: 1px solid var(--black-and-blue);
 }
 
-nav a:hover {
+nav a:hover,
+.navlinks:hover {
     background-color: var(--lighter-cyan);
     color: var(--black-and-blue);
 }
@@ -49,7 +51,8 @@ nav a:hover {
             min-width: 650px;
             padding: 0rem 3rem;
         }
-        nav a{
+        nav a,
+        .navlinks {
             background-color: var(--dark-cyan);
             border-radius: 25px;
             width: 135px;

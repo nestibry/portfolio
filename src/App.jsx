@@ -9,7 +9,6 @@ import { AboutPage, ContactPage, PortfolioPage, ResumePage, PageNotFound } from 
 export default function App() {
     return (
         <>
-            <Header />
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<AboutPage />} />
