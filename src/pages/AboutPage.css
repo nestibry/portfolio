@@ -34,7 +34,7 @@
 
 .profile-summary {
     text-align: left;
-    background-color: var(--pale-cyan);
+    background-color: var(--light-cyan);
     color: var(--black-and-blue);
     padding: 2rem;
     border-radius: 25px;
