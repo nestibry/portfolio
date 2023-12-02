@@ -1,0 +1,18 @@
+.background-image {
+    height: 500px;
+    width: 100%;
+    background-image: url('../assets/images/shenandoah-mtns.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid var(--black-and-blue);
+}
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
+
+    .background-image {
+        height: 800px;
+    }
+
+}
