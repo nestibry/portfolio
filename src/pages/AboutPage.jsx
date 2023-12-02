@@ -4,7 +4,7 @@ export default function AboutPage() {
     return (
         <>
             <section className="main-sections" id="about-me">
-                <h2>About Me</h2>
+                <h2 className='section-header'>About Me</h2>
                 <div className="section-content">
                     <img src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
                     <summary>
