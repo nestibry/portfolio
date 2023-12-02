@@ -3,6 +3,10 @@ import './AboutPage.css';
 export default function AboutPage() {
     return (
         <>
+            <section >
+                <div className="background-image" title="Shenandoah National Park, Photo Credits, Bryan Nestingen"></div>
+            </section>
+
             <section className="main-sections" id="about-me">
                 <h2 className='section-header'>About Me</h2>
                 <div className="section-content">
