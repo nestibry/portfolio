@@ -13,18 +13,18 @@ export default function AboutPage() {
                     <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
                     <summary className='profile-summary'>
                         <p>
-                            Naturally inquisitive, "Bryan with a Y" is the perfect moniker for me.
+                            Naturally inquisitive, I go by 'Bryan with a Y' — a moniker that perfectly encapsulates my curiosity.
                         </p>
                         <p>
                             Key Points:
                         </p>
                         <ul>
-                        <li><p>First and foremost, I'm a devoted father and husband.</p></li>
-                            <li><p>Being an avid outdoor enthusiast, I derive immense joy from hiking and mountain biking.</p></li>
-                            <li><p>I possess extensive expertise as a Software Engineer and Machine Vision Engineer, with a foundation in Electrical Engineering and a background in teaching Mathematics at the secondary level.</p></li>
+                            <li><p>First and foremost, I'm a devoted father and husband.</p></li>
+                            <li><p>As an avid outdoor enthusiast, I find immense joy in activities like hiking and mountain biking.</p></li>
+                            <li><p>I am a versatile software engineer with a foundation in electrical engineering and a background in mathematics education. Seeking opportunities to leverage my expertise in software development, process automation, and full stack web development.</p></li>
                         </ul>
                         <p>
-                            Contact me to learn more about my eclectic background!
+                        Feel free to reach out to explore more about my diverse background! I look forward to connecting with you.
                         </p>
                     </summary>
                 </div>
