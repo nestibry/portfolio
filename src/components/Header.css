@@ -28,12 +28,12 @@ nav {
     font-weight: bold;
     padding: 1rem;
     background-color: var(--dark-cyan);
-    color: var(--lighter-cyan);
+    color: var(--pale-cyan);
     border-bottom: 1px solid var(--black-and-blue);
 }
 
 .navlinks:hover {
-    background-color: var(--lighter-cyan);
+    background-color: var(--pale-cyan);
     color: var(--black-and-blue);
 }
 
