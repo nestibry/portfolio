@@ -5,56 +5,47 @@
     align-content: center;
     align-items: center;
     gap: 3rem;
-    background-color: var(--pale-cyan);
+    background-color: var(--light-cyan);
 }
 
 .section-header {
     margin: 5% 0 0 0;
     text-align: center;
-    width: 75%;
-    padding: 1rem;
-    color: var(--dark-cyan);
-    border-bottom: 2px solid var(--dark-cyan);
+    width: 90%;
+    padding: 1rem 0rem;
+    color: var(--black-and-blue);
+    border-bottom: 2px solid var(--black-and-blue);
 }
 
 .section-content {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 90%;
     align-items: center;
     gap: 3rem;
     justify-content: space-evenly;
     margin: 0 0 2rem 0;
 }
 
-#about-me img {
-    max-width: 66%;
-    /* max-width: 250px; */
-
-    border-radius: 100%;
-    /* border: 10px solid var(--dark-cyan); */
-    /* border: 2px solid var(--black-and-blue); */
-    
-    /* border: 10px solid var(--modr-cyan); */
-    /* border: 10px solid var(--black-and-blue); */
-    /* margin: 2.5rem; */
+.profile-image {
+    max-width: 100%;
+    border-radius: 25px;
 }
 
-#about-me summary {
-    max-width: 100%;
+.profile-summary {
     text-align: left;
-    /* background-color: var(--dark-cyan); */
+    background-color: var(--pale-cyan);
     color: var(--black-and-blue);
     padding: 2rem;
     border-radius: 25px;
     margin-bottom: 4rem;
 }
 
-#about-me p {
+.profile-summary p {
     margin-bottom: 1.2rem;
 }
 
-#about-me ul {
+.profile-summary ul {
     list-style-type: disc;
     margin-left: 2rem;
 }
@@ -69,7 +60,7 @@
         min-height: 550px;
     }
 
-    .main-sections h2 {
+    .section-header {
         flex-grow: 1;
         /* max-height: 400px; */
         max-width: 20%;
@@ -89,19 +80,12 @@
         /* max-height: 75%; */
     }
 
-
-
-    #about-me img {
+    .profile-image {
         max-width: 25%;
-        /* max-width: 250px; */
         border-radius: 25px;
-        /* border: 3px solid var(--dark-cyan); */
-        /* border: 10px solid var(--modr-cyan); */
-        /* border: 10px solid var(--black-and-blue); */
-        /* margin: 2.5rem; */
     }
 
-    #about-me summary {
+    .profile-summary {
         margin: 0 5rem 0 0;
     }
 

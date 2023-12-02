@@ -7,11 +7,11 @@ export default function AboutPage() {
         <>
             <BackgroundImage />
 
-            <section className="main-sections" id="about-me">
+            <section className='main-sections' id='about-me'>
                 <h2 className='section-header'>About Me</h2>
-                <div className="section-content">
-                    <img src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
-                    <summary>
+                <div className='section-content'>
+                    <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
+                    <summary className='profile-summary'>
                         <p>
                             Naturally inquisitive, "Bryan with a Y" is the perfect moniker for me.
                         </p>
