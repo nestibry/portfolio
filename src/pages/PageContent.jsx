@@ -1,35 +1,49 @@
 import './PageContent.css';
 
+import { Header, BackgroundImage } from '../components/';
+
 export default function PageContent({ pageType }) {
 
-    let pageHeader;
-    let pageContent;
+    let contentHeader;
+    let content;
+    let includeBackground = false;
 
     switch (pageType) {
+
         case 'about':
-            pageHeader = 'About Me';
+            contentHeader = 'About Me';
+            content = <h1>This is my About Me content</h1>;
+            includeBackground = true;
             break;
+
         case 'portfolio':
-            pageHeader = 'Portfolio';
-            pageContent = <h1>This is my portfolio content</h1>;
+            contentHeader = 'Portfolio';
+            content = <h1>This is my portfolio content</h1>;
             break;
+
         case 'resume':
-            pageHeader = 'Resume';
+            contentHeader = 'Resume';
+            content = <h1>This is my Resume content</h1>;
             break;
+
         case 'contact':
-            pageHeader = 'Contact';
+            contentHeader = 'Contact';
+            content = <h1>This is my Contact content</h1>;
             break;
+
         default:
-            pageHeader = 'Page Not Found';
-            pageContent = <h1>Page Not Found</h1>;
+            contentHeader = 'Page Not Found';
+            content = <h1>Page Not Found</h1>;
     }
 
     return (
-        <>
-            <div className='page-container'>
-                <h2 className='page-header'>{pageHeader}</h2>
-                <div className='page-divider'></div>
-                <div className='page-content'>{pageContent}</div>
+        <>  
+            <Header />
+            { includeBackground && <BackgroundImage/ > }
+            <div className='content-container'>
+                <h2 className='content-header'>{contentHeader}</h2>
+                <div className='content-divider'></div>
+                <div className='content-content'>{content}</div>
             </div>
         </>
     )
