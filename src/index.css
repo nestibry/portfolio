@@ -6,10 +6,10 @@
     --dark-cyan: #2B7A78;
     --modr-cyan: #3AAFA9;
     --light-cyan: #b2d8d6;
-    --lighter-cyan: #DEF2F2;
-    --pale-cyan: #FEFFFF;
-    color: var(--black-and-blue);
-    background-color: var(--lighter-cyan);
+    --pale-cyan: #DEF2F2;
+    --white: #FFFFFF;
+    color: var(--pale-cyan);
+    background-color: var(--black-and-blue);
 
     /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
     font-size: 62.5%;
@@ -28,5 +28,44 @@ body {
     min-width: 320px;
     min-height: 100vh;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+  
+/* 4rem = 40px (4 * 10px) */
+h1 {
+    font-size: 4rem;
+}
+  
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2.25rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+ 
+p {
+    font-size: 2rem;
+}
+
 
 

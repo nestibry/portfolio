@@ -1,4 +1,3 @@
-// Temporary Pages for site navigation
 export { default as AboutPage } from './AboutPage';
 export { default as ContactPage } from './ContactPage';
 export { default as PortfolioPage } from './PortfolioPage';
