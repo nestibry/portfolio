@@ -1,26 +1,19 @@
 .page-container {
     display: flex;
     flex-direction: column;
-    padding: 5%;
     align-items: center;
-    /* text-align: center; */
-    justify-content: space-between;
-    /* align-content: center; */
-    /* align-items: center; */
-    /* gap: 3rem; */
+    padding: 0 5%;
 
     background-color: var(--light-cyan);
 }
 
 .page-header {
-    /* margin: 0 0 0 0; */
-    /* text-align: center; */
-    /* width: 90%; */
-    /* padding: 1rem 0rem; */
     text-align: center;
     width: 100%;
     color: var(--black-and-blue);
+
     background-color: var(--pale-cyan);
+    border-radius: 25px;
 }
 
 .page-divider {
@@ -30,17 +23,19 @@
 }
 
 .page-content {
-    /* margin: 0 0 0 0; */
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* width: 90%; */
-    /* align-items: center; */
-    /* gap: 3rem; */
-    /* justify-content: flex-start; */
-    /* margin: 0 0 5% 0; */
-    color: var(--black-and-blue);
-    background-color: var(--pale-cyan);
+
+
+    background-color: var(--black-and-blue);
+    border-radius: 25px;
+}
+
+
+.profile-image {
+    max-width: 90%;
+    border-radius: 25px;
 }
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
