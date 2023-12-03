@@ -1,14 +1,14 @@
-import './PageContent.css';
+import './Page.css';
 
-import { Header, BackgroundImage } from '../components/';
+import { Header, BackgroundImage } from '../components';
 
-export default function PageContent({ pageType }) {
+export default function Page({ type }) {
 
     let contentHeader;
     let content;
     let includeBackground = false;
 
-    switch (pageType) {
+    switch (type) {
 
         case 'about':
             contentHeader = 'About Me';
