@@ -17,8 +17,19 @@ export default function Page({ type }) {
             break;
 
         case 'portfolio':
-            header = 'Portfolio';
-            content = <h1>This is my portfolio content</h1>;
+            header = <h1>Portfolio</h1>;
+            content = <>
+                <div>
+                    <h1>This is my portfolio content</h1>
+                    <h2>This is my portfolio content</h2>
+                    <h3>This is my portfolio content</h3>
+                </div>
+                <div>
+                    <h1>This is my portfolio content</h1>
+                    <h2>This is my portfolio content</h2>
+                    <h3>This is my portfolio content</h3>
+                </div>
+            </>;
             break;
 
         case 'resume':
@@ -37,13 +48,13 @@ export default function Page({ type }) {
     }
 
     return (
-        <>  
+        <>
             <Header />
-            { includeBackground && <BackgroundImage/ > }
-            <div className='container'>
-                <h2 className='header'>{header}</h2>
-                <div className='divider'></div>
-                <div className='content'>{content}</div>
+            {includeBackground && <BackgroundImage />}
+            <div className='page-container'>
+                <div className='page-header'>{header}</div>
+                <div className='page-divider'></div>
+                <div className='page-content'>{content}</div>
             </div>
         </>
     )
