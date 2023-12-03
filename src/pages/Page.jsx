@@ -17,7 +17,7 @@ export default function Page({ type }) {
             break;
 
         case 'portfolio':
-            header = <h1>Portfolio</h1>;
+            header = 'Portfolio';
             content = <>
                 <div>
                     <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
@@ -71,7 +71,7 @@ export default function Page({ type }) {
             <Header />
             {includeBackground && <BackgroundImage />}
             <div className='page-container'>
-                <div className='page-header'>{header}</div>
+                <div className='page-header'><h2>{header}</h2></div>
                 <div className='page-divider'></div>
                 <div className='page-content'>{content}</div>
             </div>

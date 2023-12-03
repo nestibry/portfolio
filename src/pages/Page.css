@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 5%;
+    padding: 5%;
+    gap: 3rem;
 
     background-color: var(--light-cyan);
 }
@@ -12,8 +13,13 @@
     width: 100%;
     color: var(--black-and-blue);
 
+    
     background-color: var(--pale-cyan);
     border-radius: 25px;
+}
+
+.page-header h2 {
+    margin: 0;
 }
 
 .page-divider {
@@ -26,6 +32,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 3rem;
 
 
     background-color: var(--black-and-blue);
