@@ -4,35 +4,35 @@ import { Header, BackgroundImage } from '../components';
 
 export default function Page({ type }) {
 
-    let contentHeader;
+    let header;
     let content;
     let includeBackground = false;
 
     switch (type) {
 
         case 'about':
-            contentHeader = 'About Me';
+            header = 'About Me';
             content = <h1>This is my About Me content</h1>;
             includeBackground = true;
             break;
 
         case 'portfolio':
-            contentHeader = 'Portfolio';
+            header = 'Portfolio';
             content = <h1>This is my portfolio content</h1>;
             break;
 
         case 'resume':
-            contentHeader = 'Resume';
+            header = 'Resume';
             content = <h1>This is my Resume content</h1>;
             break;
 
         case 'contact':
-            contentHeader = 'Contact';
+            header = 'Contact';
             content = <h1>This is my Contact content</h1>;
             break;
 
         default:
-            contentHeader = 'Page Not Found';
+            header = 'Page Not Found';
             content = <h1>Page Not Found</h1>;
     }
 
@@ -40,10 +40,10 @@ export default function Page({ type }) {
         <>  
             <Header />
             { includeBackground && <BackgroundImage/ > }
-            <div className='content-container'>
-                <h2 className='content-header'>{contentHeader}</h2>
-                <div className='content-divider'></div>
-                <div className='content-content'>{content}</div>
+            <div className='container'>
+                <h2 className='header'>{header}</h2>
+                <div className='divider'></div>
+                <div className='content'>{content}</div>
             </div>
         </>
     )
