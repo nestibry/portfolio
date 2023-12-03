@@ -1,0 +1,68 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--light-cyan);
+}
+
+.page-header {
+    margin: 5% 0 0 0;
+    text-align: center;
+    width: 90%;
+    padding: 1rem 0rem;
+    color: var(--black-and-blue);
+}
+
+.page-divider {
+    background-color: var(--black-and-blue);
+    width: 90%;
+    height: 2px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-evenly;
+    margin: 0 0 2rem 0;
+}
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
+
+    .page-container {
+        flex-direction: row;
+        min-height: 550px;
+    }
+
+    .page-header {
+        flex-grow: 1;
+        /* max-height: 400px; */
+        max-width: 20%;
+        margin: 0;
+        /* padding: 150px 4rem; */
+        padding: 0 1rem 400px 1rem;
+        color: var(--black-and-blue);
+        border-bottom: none;
+    }
+
+    .page-divider {
+        background-color: var(--black-and-blue);
+        width: 5px;
+        height: 200px;
+    }
+
+    .page-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* gap: 2rem; */
+        /* max-height: 75%; */
+    }
+}
