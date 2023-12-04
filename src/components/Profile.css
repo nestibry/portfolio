@@ -1,0 +1,39 @@
+.profile-image {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.profile-summary {
+    text-align: left;
+    background-color: var(--light-cyan);
+    color: var(--black-and-blue);
+    padding: 2rem;
+    border-radius: 25px;
+    margin-bottom: 4rem;
+}
+
+.profile-summary p {
+    margin-bottom: 1.2rem;
+}
+
+.profile-summary ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    /* font-size: 3rem; */
+}
+
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
+
+    .profile-image {
+        max-width: 25%;
+        border-radius: 25px;
+    }
+
+    .profile-summary {
+        margin: 0 5rem 0 0;
+    }
+
+}
