@@ -1,6 +1,13 @@
 import './Page.css';
 
-import { Header, BackgroundImage } from '../components';
+
+import {
+    Header,
+    BackgroundImage,
+    Profile
+}
+from '../components';
+
 
 export default function Page({ type }) {
 
@@ -10,9 +17,9 @@ export default function Page({ type }) {
 
     switch (type) {
 
-        case 'about':
+        case 'home':
             header = 'About Me';
-            content = <h1>This is my About Me content</h1>;
+            content = <Profile />
             includeBackground = true;
             break;
 
@@ -34,7 +41,7 @@ export default function Page({ type }) {
                             <li><p>I am a versatile software engineer with a foundation in electrical engineering and a background in mathematics education. Seeking opportunities to leverage my expertise in software development, process automation, and full stack web development.</p></li>
                         </ul>
                         <p>
-                        Feel free to reach out to explore more about my diverse background! I look forward to connecting with you.
+                            Feel free to reach out to explore more about my diverse background! I look forward to connecting with you.
                         </p>
                     </summary>
                 </div>

@@ -11,7 +11,8 @@ export default function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<AboutPage />} />
+                    {/* <Route path='/' element={<AboutPage />} /> */}
+                    <Route path='/' element={<Page type='home' />} />
                     <Route path='/portfolio' element={<Page type='portfolio' />} />
                     <Route path='/resume' element={<ResumePage />} />
                     <Route path='/contact' element={<ContactPage />} />

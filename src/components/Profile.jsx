@@ -2,7 +2,6 @@ import './Profile.css';
 
 export default function Profile() {
     return (
-        <>
         <div className='profile-card'>
             <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
             <summary className='profile-summary'>
@@ -22,7 +21,5 @@ export default function Profile() {
                 </p>
             </summary>
         </div>
-
-        </>
     )
 }
