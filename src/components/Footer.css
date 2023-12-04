@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.navBrand {
+    /* 4rem = 40px (4 * 10px) */
+    font-size: 4.25rem;
+    line-height: 1;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.5rem 0rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.navlinks {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: var(--dark-cyan);
+    color: var(--pale-cyan);
+    border-bottom: 1px solid var(--black-and-blue);
+}
+
+.navlinks:hover {
+    background-color: var(--pale-cyan);
+    color: var(--black-and-blue);
+}
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 0rem;
+    }
+    
+    .navBrand {
+        padding-left: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        min-width: 50%;
+        padding: 0rem 2rem;
+    }
+
+    .navlinks {
+        border-radius: 25px;
+        width: 135px;
+        margin-right: 1rem;
+    }
+}
