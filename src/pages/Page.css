@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    padding: 5%;
+    padding: 3rem 1.5rem;
     gap: 3rem;
-
+    
+/* Need to remove before the final commit */
     background-color: var(--light-cyan);
 }
 
@@ -13,7 +14,7 @@
     text-align: center;
     color: var(--black-and-blue);
 
-
+/* Need to remove before the final commit */
     background-color: var(--pale-cyan);
     border-radius: 25px;
 }
@@ -24,7 +25,8 @@
 
 .page-divider {
     background-color: var(--black-and-blue);
-    height: 2px;
+    height: 3px;
+    border-radius: 3px;
 }
 
 .page-content {
@@ -34,7 +36,7 @@
     align-items: stretch;
     gap: 3rem;
 
-
+/* Need to remove before the final commit */
     background-color: var(--black-and-blue);
     border-radius: 25px;
 }
@@ -59,31 +61,27 @@
 
     .page-container {
         flex-direction: row;
-        min-height: 550px;
+        align-items: stretch;
+        gap: 5rem;
+        padding: 5rem;
+        min-height: auto;
     }
 
     .page-header {
-        flex-grow: 1;
-        /* max-height: 400px; */
-        max-width: 20%;
-        margin: 0;
-        /* padding: 150px 4rem; */
-        padding: 0 1rem 400px 1rem;
         color: var(--black-and-blue);
-        border-bottom: none;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0 1rem;
     }
 
     .page-divider {
         background-color: var(--black-and-blue);
-        width: 5px;
-        height: 200px;
+        min-width: 5px;
+        border-radius: 5px;
+        height: auto;
     }
 
     .page-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        /* gap: 2rem; */
-        /* max-height: 75%; */
+        gap: 1rem;
     }
 }
