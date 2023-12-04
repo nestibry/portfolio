@@ -14,7 +14,7 @@ export default function Footer() {
                 <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/@BryanNestingen'>YouTube</a>
             </div>
             <div className='footer-copyright' >
-                <h6>Happy Trails and Get Outside! - © 2023 Bryan Nestingen</h6>
+                <h6>Happy Trails and Get Outside! — © 2023 Bryan Nestingen</h6>
             </div>
         </footer>
     );
