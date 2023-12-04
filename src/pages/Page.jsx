@@ -19,7 +19,7 @@ export default function Page({ type }) {
         case 'portfolio':
             header = 'Portfolio';
             content = <>
-                <div>
+                <div className='content-card'>
                     <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
                     <summary>
                         <h6>
@@ -38,12 +38,12 @@ export default function Page({ type }) {
                         </p>
                     </summary>
                 </div>
-                <div>
+                <div className='content-card'>
                     <h1>This is my portfolio content</h1>
                     <h2>This is my portfolio content</h2>
                     <h3>This is my portfolio content</h3>
                 </div>
-                <div>
+                <div className='content-card'>
                     <h1>This is my portfolio content</h1>
                     <h2>This is my portfolio content</h2>
                     <h3>This is my portfolio content</h3>
