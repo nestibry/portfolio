@@ -1,22 +1,19 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Header from './components/Header';
-
-// Temporary Pages for site navigation
-import { AboutPage, ContactPage, PortfolioPage, ResumePage, PageNotFound } from './pages/';
+import { Page } from './pages/';
 
 export default function App() {
+
     return (
         <>
             <BrowserRouter>
-                <Header />
                 <Routes>
-                    <Route path='/' element={<AboutPage />} />
-                    <Route path='/portfolio' element={<PortfolioPage />} />
-                    <Route path='/resume' element={<ResumePage />} />
-                    <Route path='/contact' element={<ContactPage />} />
-                    <Route path='/*' element={<PageNotFound />} />
+                    <Route path='/' element={<Page type='home' />} />
+                    <Route path='/portfolio' element={<Page type='portfolio' />} />
+                    <Route path='/resume' element={<Page type='resume' />} />
+                    <Route path='/contact' element={<Page type='contact' />} />
+                    <Route path='/*' element={<Page type='page-not-found' />} />
                 </Routes>
             </BrowserRouter>
         </>

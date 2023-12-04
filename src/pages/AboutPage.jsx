@@ -1,10 +1,11 @@
-import { BackgroundImage } from '../components/';
+import { Header, BackgroundImage } from '../components/';
 import './AboutPage.css';
 
 
 export default function AboutPage() {
     return (
         <>
+            <Header />
             <BackgroundImage />
 
             <section className='main-sections' id='about-me'>
