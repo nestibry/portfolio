@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Header from './components/Header';
-
-import { AboutPage, ContactPage, PortfolioPage, ResumePage, PageNotFound, Page } from './pages/';
+import { Page } from './pages/';
 
 export default function App() {
 
@@ -11,12 +9,11 @@ export default function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    {/* <Route path='/' element={<AboutPage />} /> */}
                     <Route path='/' element={<Page type='home' />} />
                     <Route path='/portfolio' element={<Page type='portfolio' />} />
-                    <Route path='/resume' element={<ResumePage />} />
-                    <Route path='/contact' element={<ContactPage />} />
-                    <Route path='/*' element={<PageNotFound />} />
+                    <Route path='/resume' element={<Page type='resume' />} />
+                    <Route path='/contact' element={<Page type='contact' />} />
+                    <Route path='/*' element={<Page type='page-not-found' />} />
                 </Routes>
             </BrowserRouter>
         </>
