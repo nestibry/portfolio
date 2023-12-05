@@ -4,7 +4,8 @@ import './Page.css';
 import {
     Header,
     BackgroundImage,
-    Profile
+    Profile,
+    Footer
 }
 from '../components';
 
@@ -82,6 +83,7 @@ export default function Page({ type }) {
                 <div className='page-divider'></div>
                 <div className='page-content'>{content}</div>
             </div>
+            <Footer />
         </>
     )
 }
