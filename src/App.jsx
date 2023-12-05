@@ -1,6 +1,13 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+library.add(faEnvelope, faGithub, faLinkedin, faYoutube);
+
+
 import { Page } from './pages/';
 
 export default function App() {
