@@ -8,22 +8,24 @@ export default function Footer() {
     return (
 
         <footer>
-            <div className='footer-links'>
-                <NavLink to='/contact' className='navlinks'>
-                    <FontAwesomeIcon icon="fa-solid fa-envelope" size="xl" />
+            <div className='footer-row'>
+                <NavLink to='/contact' className='footer-icon'>
+                    <FontAwesomeIcon icon="fa-solid fa-envelope" />
                 </NavLink>
-                <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://github.com/nestibry'>
-                    <FontAwesomeIcon icon="fa-brands fa-github" size="xl" />
+                <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://github.com/nestibry'>
+                    <FontAwesomeIcon className='icon-icon' icon="fa-brands fa-github"  />
                 </a>
-                <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
-                    <FontAwesomeIcon icon="fa-brands fa-linkedin" size="xl" />
+                <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
+                    <FontAwesomeIcon icon="fa-brands fa-linkedin"  />
                 </a>
-                <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/@BryanNestingen'>
-                    <FontAwesomeIcon icon="fa-brands fa-youtube" size="xl"/>
+                <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/@BryanNestingen'>
+                    <FontAwesomeIcon icon="fa-brands fa-youtube"  />
                 </a>
             </div>
-            <div className='footer-copyright' >
-                <h6>Happy Trails and Get Outside! — © 2023 Bryan Nestingen</h6>
+            <div className='footer-row' >
+                <a className='footer-copyright' target='_blank' rel='noopener noreferrer' href='https://github.com/nestibry/portfolio'>
+                    © 2023 — Bryan Nestingen
+                </a>
             </div>
         </footer>
     );
