@@ -1,4 +1,6 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import './Footer.css';
 
@@ -8,7 +10,7 @@ export default function Footer() {
 
         <footer>
             <div className='footer-links'>
-                <NavLink to='/contact' className='navlinks'>Message</NavLink>                
+                <NavLink to='/contact' className='navlinks'><FontAwesomeIcon icon={faEnvelope} /></NavLink>                
                 <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://github.com/nestibry'>GitHub</a>
                 <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>LinkedIn</a>
                 <a className='navlinks' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/@BryanNestingen'>YouTube</a>
