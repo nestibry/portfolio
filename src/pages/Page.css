@@ -6,7 +6,7 @@
     padding: 3rem 1.5rem;
     gap: 3rem;
 
-/* Need to remove before the final commit */
+/* Need to edit before the final commit */
     background-color: var(--light-cyan);
 }
 
@@ -15,8 +15,8 @@
     color: var(--black-and-blue);
 
 /* Need to remove before the final commit */
-    background-color: var(--pale-cyan);
-    border-radius: 25px;
+    /* background-color: var(--pale-cyan);
+    border-radius: 25px; */
 }
 
 .page-header h2 {
@@ -37,23 +37,24 @@
     gap: 3rem;
 
 /* Need to remove before the final commit */
-    background-color: var(--black-and-blue);
-    border-radius: 25px;
+    /* background-color: var(--black-and-blue);
+    border-radius: 25px; */
+    color: var(--black-and-blue);
 }
 
 /* Need to remove before the final commit */
-.profile-image {
+/* .profile-image {
     max-width: 90%;
     border-radius: 25px;
-}
+} */
 
 /* Need to remove before the final commit */
-.content-card {
+/* .content-card {
     margin: 1%;
     background-color: var(--dark-cyan);
     border-radius: 25px;
 
-}
+} */
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 /* @media screen and (min-width: 768px) { */
