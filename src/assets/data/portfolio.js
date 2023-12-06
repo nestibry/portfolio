@@ -1,29 +1,12 @@
 export const portfolio = [
     {
         id: 1,
-        name: 'The Weather Dashboard',
-        stack: '',
-        img: '',
-        app: '',
-        repo: '',
-        demo: ''
-    },
-    {
-        id: 2,
-        name: 'The Tech Blog',
-        stack: '',
-        img: '',
-        app: '',
-        repo: '',
-        demo: ''
-    },
-    {
-        id: 3,
-        name: 'Code Quiz',
-        stack: '',
-        img: '',
-        app: '',
-        repo: '',
+        name: 'Weather Dashboard',
+        description: 'Retrieves and displays 5-day weather forecast for cities using the OpenWeather API.',
+        stack: 'RESTful API, jQuery, Bootstrap',
+        img: '../images/weather-dashboard-example.png',
+        app: 'https://nestibry.github.io/umnbc-mod06-weather-dashboard/',
+        repo: 'https://github.com/nestibry/umnbc-mod06-weather-dashboard',
         demo: ''
     }
 ];
