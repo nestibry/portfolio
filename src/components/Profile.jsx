@@ -5,9 +5,9 @@ export default function Profile() {
         <div className='profile-card'>
             <img className='profile-image' src='../src/assets/images/bryan-nestingen-profile-photo.jpg' alt="Bryan Nestingen's profile photo." />
             <summary className='profile-summary'>
-                <h6>
+                <p>
                     Naturally inquisitive, I go by 'Bryan with a Y' — a moniker that perfectly encapsulates my curiosity.
-                </h6>
+                </p>
                 <p>
                     Key Points:
                 </p>
