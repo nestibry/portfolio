@@ -29,11 +29,8 @@
 }
 
 .profile-summary ul {
-    /* list-style-type: circle; */
-    /* list-style: disc inside; */
-    /* list-style: disc; */
     margin-left: 2rem;
-    /* font-size: 3rem; */
+    margin-bottom: 2rem;
 }
 
 
