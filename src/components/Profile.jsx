@@ -12,9 +12,9 @@ export default function Profile() {
                     Key Points:
                 </p>
                 <ul>
-                    <li><p>First and foremost, I'm a devoted father and husband.</p></li>
-                    <li><p>As an avid outdoor enthusiast, I find immense joy in activities like hiking and mountain biking.</p></li>
-                    <li><p>I am a versatile software engineer with a foundation in electrical engineering and a background in mathematics education. Seeking opportunities to leverage my expertise in software development, process automation, and full stack web development.</p></li>
+                    <li>First and foremost, I'm a devoted father and husband.</li>
+                    <li>As an avid outdoor enthusiast, I find immense joy in activities like hiking and mountain biking.</li>
+                    <li>I am a versatile software engineer with a foundation in electrical engineering and a background in mathematics education. Seeking opportunities to leverage my expertise in software development, process automation, and full stack web development.</li>
                 </ul>
                 <p>
                     Feel free to reach out to explore more about my diverse background! I look forward to connecting with you.

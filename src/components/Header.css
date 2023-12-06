@@ -12,7 +12,7 @@ header {
     color: inherit;
     text-decoration: none;
     font-weight: bold;
-    padding: 1.5rem 0rem;
+    padding: 2.5rem 0rem;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: var(--dark-cyan);
     color: var(--pale-cyan);
     border-bottom: 1px solid var(--black-and-blue);
@@ -47,8 +47,9 @@ nav {
     }
     
     .navBrand {
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
         margin-bottom: .5rem;
+        padding: 1.25rem 3rem;
     }
 
     nav {

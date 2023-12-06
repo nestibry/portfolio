@@ -1,15 +1,25 @@
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
 .profile-image {
-    max-width: 100%;
+    width: 100%;
     border-radius: 25px;
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .profile-summary {
     text-align: left;
-    background-color: var(--light-cyan);
-    color: var(--black-and-blue);
+    background-color: var(--dark-cyan);
+    color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
-    margin-bottom: 4rem;
+    line-height: 1.5;
 }
 
 .profile-summary p {
@@ -17,23 +27,45 @@
 }
 
 .profile-summary ul {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
     list-style-type: disc;
-    margin-left: 2rem;
-    /* font-size: 3rem; */
+    padding-left: 3rem; /* Offset the text from the bullet */
 }
 
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 500px) {
+
+    .profile-image {
+        max-width: 50%;
+    }
+
+}
+
+
 @media screen and (min-width: 992px) {
+
+    .profile-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center;
+        gap: 3rem;
+    }
 
     .profile-image {
         max-width: 25%;
-        border-radius: 25px;
     }
 
     .profile-summary {
-        margin: 0 5rem 0 0;
+        padding-top: 0rem;
+        background-color: var(--light-cyan);
+        color: var(--black-and-blue);
     }
 
+    .profile-summary p {
+        font-weight: 600;
+    }
 }

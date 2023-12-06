@@ -14,7 +14,6 @@
     /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
     font-size: 62.5%;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
     font-weight: 400;
 
     font-synthesis: none;
@@ -23,10 +22,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 body {
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
+    line-height: 1.1;
 }
 
 h1,
@@ -35,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 700; 
 }
   
 /* 4rem = 40px (4 * 10px) */
@@ -63,8 +64,10 @@ h6 {
     font-size: 2rem;
 }
  
-p {
+p,
+li {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 
