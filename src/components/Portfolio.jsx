@@ -9,7 +9,7 @@ export default function Portfolio() {
 
         <div className='project-card' key={item.id}>
             <a className='project-link' target='_blank' rel='noopener noreferrer' href={item.img_link}>
-                <img className='project-image' src={`../src/assets/images/${item.img}`} alt="Bryan Nestingen's profile photo." />
+                <img className='project-image' src={`/images/${item.img}`} alt="Bryan Nestingen's profile photo." />
             </a>
             <div className='project-summary'>
                 <h3>{item.name} </h3>
