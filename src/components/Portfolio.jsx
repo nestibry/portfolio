@@ -13,7 +13,7 @@ export default function Portfolio() {
             </a>
             <div className='project-summary'>
                 <h3>{item.name} </h3>
-                <h6><i>{item.stack}</i></h6>
+                <h6>{item.stack}</h6>
                 {/* <p>{item.description}</p> */}
                 <div className='project-links'>
                     <p>
