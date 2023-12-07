@@ -1,7 +1,7 @@
 .background-image {
     height: 500px;
     width: 100%;
-    background-image: url('../assets/images/shenandoah-mtns.jpg');
+    background-image: url('/images/shenandoah-mtns.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid var(--black-and-blue);
