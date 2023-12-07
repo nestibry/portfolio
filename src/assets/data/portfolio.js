@@ -17,7 +17,7 @@ export const portfolio = [
         stack: 'NoSQL: MongoDB, Mongoose, Express.js',
         img: 'social-network-api-demo-video-thumbnail.png',
         img_link: 'https://www.youtube.com/watch?v=mYROI-arFiY',
-        app: 'https://www.youtube.com/watch?v=mYROI-arFiY',
+        app: '',
         repo: 'https://github.com/nestibry/umnbc-mod18-nosql-social-network-api',
         demo: 'https://www.youtube.com/watch?v=mYROI-arFiY'
     },
@@ -50,7 +50,7 @@ export const portfolio = [
         stack: 'MySQL, Node.js, Inquirer',
         img: 'employee-manager-demo-video-thumbnail.png',
         img_link: 'https://www.youtube.com/watch?v=R1OZm1962JI',
-        app: 'https://www.youtube.com/watch?v=R1OZm1962JI',
+        app: '',
         repo: 'https://github.com/nestibry/umnbc-mod12-mysql-employee-manager',
         demo: 'https://www.youtube.com/watch?v=R1OZm1962JI'
     }

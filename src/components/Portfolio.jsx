@@ -15,21 +15,26 @@ export default function Portfolio() {
                 <h3>{item.name} </h3>
                 <h6>{item.stack}</h6>
                 {/* <p>{item.description}</p> */}
+
                 <div className='project-links'>
-                    <p>
-                        <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.app}>
-                            <FontAwesomeIcon icon="fa-solid fa-rocket" />
-                        </a>
-                    </p>
-                    <p>
-                        <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.repo}>
-                            <FontAwesomeIcon className='icon-icon' icon="fa-brands fa-github" />
-                        </a>
-                    </p>
+                    {item.app.length ?
+                        <p>
+                            <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.app}>
+                                <FontAwesomeIcon icon="fa-solid fa-rocket" />
+                            </a>
+                        </p>
+                        : <></>}
                     {item.demo.length ?
                         <p>
                             <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.demo}>
                                 <FontAwesomeIcon icon="fa-brands fa-youtube" />
+                            </a>
+                        </p>
+                        : <></>}
+                    {item.repo.length ?
+                        <p>
+                            <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.repo}>
+                                <FontAwesomeIcon className='icon-icon' icon="fa-brands fa-github" />
                             </a>
                         </p>
                         : <></>}
