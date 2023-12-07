@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faRocket, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faRocket, faFileArrowDown, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
-library.add(faEnvelope, faGithub, faLinkedin, faYoutube, faRocket);
+library.add(faEnvelope, faGithub, faLinkedin, faYoutube, faRocket, faFileArrowDown);
 
 
 import { Page } from './pages/';
