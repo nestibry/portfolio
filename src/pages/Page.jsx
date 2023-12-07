@@ -6,6 +6,7 @@ import {
     BackgroundImage,
     Profile,
     Portfolio,
+    Resume,
     Footer
 }
 from '../components';
@@ -32,7 +33,7 @@ export default function Page({ type }) {
 
         case 'resume':
             header = 'Resume';
-            content = <h1>This is my Resume content</h1>;
+            content = <Resume />;
             break;
 
         case 'contact':
