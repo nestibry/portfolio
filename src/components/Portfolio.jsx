@@ -13,8 +13,8 @@ export default function Portfolio() {
             </a>
             <div className='project-summary'>
                 <h3>{item.name} </h3>
-                <p>{item.description}</p>
-                <p>{item.stack}</p>
+                <h6><i>{item.stack}</i></h6>
+                {/* <p>{item.description}</p> */}
                 <div className='project-links'>
                     <p>
                         <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.app}>

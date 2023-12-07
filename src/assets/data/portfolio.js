@@ -31,7 +31,7 @@ export const portfolio = [
     },
     {
         id: 4,
-        name: 'Code Quiz',
+        name: 'Coding Quiz',
         description: 'A timed multiple-choice coding assessment to simulate a coding assessment as part of an interview process.',
         stack: 'HTML, CSS, JavaScript',
         img: 'coding-quiz-example.png',
