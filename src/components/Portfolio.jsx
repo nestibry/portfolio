@@ -8,7 +8,7 @@ export default function Portfolio() {
     return portfolio.map((item, index) => (
 
         <div className='project-card' key={item.id}>
-            <a className='project-link' target='_blank' rel='noopener noreferrer' href={item.app}>
+            <a className='project-link' target='_blank' rel='noopener noreferrer' href={item.img_link}>
                 <img className='project-image' src={`../src/assets/images/${item.img}`} alt="Bryan Nestingen's profile photo." />
             </a>
             <div className='project-summary'>
