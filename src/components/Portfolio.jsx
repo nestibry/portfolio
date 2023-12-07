@@ -1,34 +1,40 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { portfolio } from "../assets/data/portfolio";
 
+import './Portfolio.css';
+
 export default function Portfolio() {
 
     return portfolio.map((item, index) => (
 
-        <div key={item.id}>
-            <a className='footer-icon' target='_blank' rel='noopener noreferrer' href={item.app}>
-                <img className='profile-image' src={`../src/assets/images/${item.img}`} alt="Bryan Nestingen's profile photo." />
+        <div className='project-card' key={item.id}>
+            <a className='project-link' target='_blank' rel='noopener noreferrer' href={item.app}>
+                <img className='project-image' src={`../src/assets/images/${item.img}`} alt="Bryan Nestingen's profile photo." />
             </a>
-            <h3>{item.name} </h3>
-            <p>{item.description}</p>
-            <p>{item.stack}</p>
-            <p>
-                <a className='footer-icon' target='_blank' rel='noopener noreferrer' href={item.app}>
-                <FontAwesomeIcon icon="fa-solid fa-rocket" />
-                </a>
-            </p>
-            <p>
-                <a className='footer-icon' target='_blank' rel='noopener noreferrer' href={item.repo}>
-                    <FontAwesomeIcon className='icon-icon' icon="fa-brands fa-github" />
-                </a>
-            </p>
-            {item.demo.length ?
-                <p>
-                    <a className='footer-icon' target='_blank' rel='noopener noreferrer' href={item.demo}>
-                        <FontAwesomeIcon icon="fa-brands fa-youtube" />
-                    </a>
-                </p>
-                : 'no demo'}
+            <div className='project-summary'>
+                <h3>{item.name} </h3>
+                <p>{item.description}</p>
+                <p>{item.stack}</p>
+                <div className='project-links'>
+                    <p>
+                        <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.app}>
+                            <FontAwesomeIcon icon="fa-solid fa-rocket" />
+                        </a>
+                    </p>
+                    <p>
+                        <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.repo}>
+                            <FontAwesomeIcon className='icon-icon' icon="fa-brands fa-github" />
+                        </a>
+                    </p>
+                    {item.demo.length ?
+                        <p>
+                            <a className='project-link-icon' target='_blank' rel='noopener noreferrer' href={item.demo}>
+                                <FontAwesomeIcon icon="fa-brands fa-youtube" />
+                            </a>
+                        </p>
+                        : <></>}
+                </div>
+            </div>
         </div>
 
     ));
