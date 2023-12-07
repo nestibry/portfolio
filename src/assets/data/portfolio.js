@@ -7,6 +7,6 @@ export const portfolio = [
         img: 'weather-dashboard-example.png',
         app: 'https://nestibry.github.io/umnbc-mod06-weather-dashboard/',
         repo: 'https://github.com/nestibry/umnbc-mod06-weather-dashboard',
-        demo: ''
+        demo: 'https://github.com/nestibry/umnbc-mod06-weather-dashboard'
     }
 ];
