@@ -16,7 +16,6 @@
 
 .project-summary {
     text-align: center;
-    /* background-color: var(--dark-cyan); */
     color: var(--black-and-blue);
     padding: 1rem;
     border-radius: 25px;
@@ -57,16 +56,9 @@
 }
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) { */
 
-    .project-image {
-        max-width: 50%;
-    }
-
-}
-
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1300px) {
 
     .project-card {
         display: flex;
@@ -78,13 +70,19 @@
     }
 
     .project-image {
-        max-width: 25%;
+        max-width: auto;
+    }
+
+    .project-links {
+        justify-content: flex-start;
     }
 
     .project-summary {
         padding-top: 0rem;
         background-color: var(--light-cyan);
         color: var(--black-and-blue);
+        min-width: 30%;
+        text-align: left;
     }
 
     .profile-summary p {
