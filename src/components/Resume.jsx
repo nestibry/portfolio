@@ -2,29 +2,38 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './Profile.css';
 
-export default function Profile() {
+export default function Resume() {
+
     return (
-        <div className='profile-card'>
-            <a href='../src/assets/images/bryan-nestingen-profile-photo.jpg' download>
-                <FontAwesomeIcon icon="fa-solid fa-file-arrow-down" />
-                <p>Click to Download Resume</p>
-            </a>
-            <summary className='profile-summary'>
-                <p>
-                    Naturally inquisitive, I go by 'Bryan with a Y' — a moniker that perfectly encapsulates my curiosity.
-                </p>
-                <p>
-                    Key Points:
-                </p>
+        <div className='resume-container'>
+            <div className='tech-stack-card'>
+                <h3>Tech Stack</h3>
                 <ul>
-                    <li>First and foremost, I'm a devoted father and husband.</li>
-                    <li>As an avid outdoor enthusiast, I find immense joy in activities like hiking and mountain biking.</li>
-                    <li>I am a versatile software engineer with a foundation in electrical engineering and a background in mathematics education. Seeking opportunities to leverage my expertise in software development, process automation, and full stack web development.</li>
+                    <li>HTML, CSS, JavaScript, Python, C#</li>
+                    <li>Bootstrap and other CSS frameworks</li>
+                    <li>React</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>MongoDB, Mongoose</li>
+                    <li>MSSQL, MySQL, Sequelize</li>
+                    <li>Jest</li>
+                    <li>Cognex InSight</li>
+                    <li>Savigent Workflow</li>
+                    <li>Power Apps, Power Automate, Power BI</li>
                 </ul>
-                <p>
-                    Feel free to reach out to explore more about my diverse background! I look forward to connecting with you.
-                </p>
-            </summary>
+            </div>
+            <div className='resume-card'>
+                <h3>Resume</h3>
+                <div className='resume-icons'>
+                    <a className='footer-icon' href='../src/assets/images/bryan-nestingen-profile-photo.jpg' download>
+                        <FontAwesomeIcon icon="fa-solid fa-file-arrow-down" />
+
+                    </a>
+                    <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }
