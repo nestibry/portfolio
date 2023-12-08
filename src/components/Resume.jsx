@@ -25,7 +25,13 @@ export default function Resume() {
             <div className='resume-card'>
                 <h3>Resume</h3>
                 <div className='resume-icons'>
+                    <a className='footer-icon' href='../src/assets/images/bryan-nestingen-profile-photo.jpg' download>
+                        <FontAwesomeIcon icon="fa-solid fa-file-arrow-down" />
 
+                    </a>
+                    <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                    </a>
                 </div>
             </div>
         </div>
