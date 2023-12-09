@@ -24,7 +24,7 @@ nav {
 
 .navlinks {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 1.5rem;
     background-color: var(--dark-cyan);
@@ -49,7 +49,7 @@ nav {
     .navBrand {
         /* padding-left: 3rem; */
         margin-bottom: .5rem;
-        padding: 1.25rem 3rem;
+        padding: 1.25rem 3.5rem;
     }
 
     nav {
@@ -60,6 +60,7 @@ nav {
     }
 
     .navlinks {
+        font-size: 2rem;
         border-radius: 25px;
         width: 135px;
         margin-right: 1rem;

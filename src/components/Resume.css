@@ -1,45 +1,42 @@
-.project-card {
+.resume-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
-    gap: 1rem;
     margin-bottom: 4rem;
-}
-
-.project-image {
-    width: 100%;
     border-radius: 10px;
     box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: var(--black-and-blue);
+    border: 1px solid var(--black-and-blue);
+    overflow: hidden;
 }
 
-.project-summary {
-    text-align: center;
-    color: var(--black-and-blue);
-    padding: 1rem;
-    border-radius: 25px;
-    line-height: 1.5;
+.resume-card h3 {
+    padding: 1rem 3rem;
+    color: var(--light-cyan);
 }
 
-.project-summary p {
-    margin-bottom: 1.2rem;
+.resume-card ul {
+    padding: 2rem 3rem;
+    background-color: var(--light-cyan);
 }
 
-.project-links {
+.resume-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    background-color: var(--light-cyan);
 }
 
-.project-link-icon {
+.resume-icon {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5rem;
     text-decoration: none;
     font-size: 3rem;
     min-width: 65px;
@@ -51,7 +48,7 @@
 }
 
 
-.project-link-icon:hover {
+.resume-icon:hover {
     background-color: var(--pale-cyan);
     color: var(--black-and-blue);
 }
@@ -61,7 +58,9 @@
 
 @media screen and (min-width: 1300px) {
 
-    .project-card {
+
+
+    .resume-container {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -70,27 +69,7 @@
         gap: 3rem;
     }
 
-    .project-link {
-        max-width: 700px;
-    }
-
-    .project-image {
-        max-width: auto;
-    }
-
-    .project-links {
-        justify-content: flex-start;
-    }
-
-    .project-summary {
-        padding-top: 0rem;
-        background-color: var(--light-cyan);
-        color: var(--black-and-blue);
-        min-width: 30%;
-        text-align: left;
-    }
-
-    .profile-summary p {
-        font-weight: 600;
+    .resume-card {
+        margin-bottom: .5rem;
     }
 }

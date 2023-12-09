@@ -20,6 +20,8 @@
     padding: 2rem;
     border-radius: 25px;
     line-height: 1.5;
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 .profile-summary p {
@@ -60,9 +62,7 @@
     }
 
     .profile-summary {
-        padding-top: 0rem;
-        background-color: var(--light-cyan);
-        color: var(--black-and-blue);
+        padding: 4rem;
     }
 
     .profile-summary p {

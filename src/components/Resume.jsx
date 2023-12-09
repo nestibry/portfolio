@@ -1,15 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import './Profile.css';
+import './Resume.css';
 
 export default function Resume() {
 
     return (
         <div className='resume-container'>
-            <div className='tech-stack-card'>
+            <div className='resume-card'>
                 <h3>Tech Stack</h3>
                 <ul>
-                    <li>HTML, CSS, JavaScript, Python, C#</li>
+                    <li>HTML, CSS, JavaScript, Python, C#, PowerShell</li>
                     <li>Bootstrap and other CSS frameworks</li>
                     <li>React</li>
                     <li>NodeJS</li>
@@ -23,13 +23,13 @@ export default function Resume() {
                 </ul>
             </div>
             <div className='resume-card'>
-                <h3>Resume</h3>
-                <div className='resume-icons'>
-                    <a className='footer-icon' href='../src/assets/images/bryan-nestingen-profile-photo.jpg' download>
+                <h3>Links to Resume</h3>
+                <div className='resume-links'>
+                    <a className='resume-icon' href='/Resume__Bryan Nestingen__.pdf' download>
                         <FontAwesomeIcon icon="fa-solid fa-file-arrow-down" />
 
                     </a>
-                    <a className='footer-icon' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
+                    <a className='resume-icon' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/bryan-nestingen/'>
                         <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                     </a>
                 </div>
