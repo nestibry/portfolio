@@ -1,5 +1,6 @@
-import './Page.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import './Page.css';
 
 import {
     Header,
@@ -38,11 +39,11 @@ export default function Page({ type }) {
 
         case 'contact':
             header = 'Contact';
-            content = <h1>This is my Contact content</h1>;
+            content = <h1>Coming Soon...</h1>;
             break;
 
         default:
-            header = 'Page Not Found';
+            header = <FontAwesomeIcon icon="fa-solid fa-file-circle-xmark" />;
             content = <h1>Page Not Found</h1>;
     }
 

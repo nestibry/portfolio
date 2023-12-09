@@ -5,18 +5,12 @@
     align-items: stretch;
     padding: 3rem 1.5rem;
     gap: 3rem;
-
-/* Need to edit before the final commit */
     background-color: var(--light-cyan);
 }
 
 .page-header {
     text-align: center;
     color: var(--black-and-blue);
-
-/* Need to remove before the final commit */
-    /* background-color: var(--pale-cyan);
-    border-radius: 25px; */
 }
 
 .page-header h2 {
@@ -35,26 +29,8 @@
     justify-content: flex-start;
     align-items: stretch;
     gap: 3rem;
-
-/* Need to remove before the final commit */
-    /* background-color: var(--black-and-blue);
-    border-radius: 25px; */
     color: var(--black-and-blue);
 }
-
-/* Need to remove before the final commit */
-/* .profile-image {
-    max-width: 90%;
-    border-radius: 25px;
-} */
-
-/* Need to remove before the final commit */
-/* .content-card {
-    margin: 1%;
-    background-color: var(--dark-cyan);
-    border-radius: 25px;
-
-} */
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 /* @media screen and (min-width: 768px) { */
@@ -65,12 +41,11 @@
         align-items: stretch;
         gap: 5rem;
         padding: 5rem;
-        min-height: auto;
+        min-height: 50vh;
     }
 
     .page-header {
         color: var(--black-and-blue);
-        /* flex-grow: 1; */
         margin: 0;
         padding: 0 1rem;
         min-width: 200px;
