@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Resume.css';
+import './Contact.css';
 
 export default function Resume() {
 
@@ -26,12 +26,11 @@ export default function Resume() {
             <form className='contact-form' onSubmit={handleFormSubmit}>
                 <div className='form-fields'>
                     <label>Name</label>
-                    <input type="text" name="name" value={userData.name} onChange={handleInputChange} />
+                    <input type="text" name="name" value={userData.name} onChange={handleInputChange} required />
                     <label>Email Address</label>
-                    <input type="text" name="email" value={userData.email} onChange={handleInputChange} />
+                    <input type="email" name="email" value={userData.email} onChange={handleInputChange} required />
                     <label>Message</label>
-                    <textarea type="text" name="message" value={userData.message} onChange={handleInputChange} />
-                    <label>Error</label>
+                    <textarea type="text" name="message" rows="4" value={userData.message} onChange={handleInputChange} required />
                 </div>
                 <div className='form-buttons'>
                     <button type="reset" onClick={handleReset}>Clear All</button>
