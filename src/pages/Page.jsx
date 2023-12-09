@@ -8,6 +8,7 @@ import {
     Profile,
     Portfolio,
     Resume,
+    Contact,
     Footer
 }
 from '../components';
@@ -39,7 +40,7 @@ export default function Page({ type }) {
 
         case 'contact':
             header = 'Contact';
-            content = <h1>Coming Soon...</h1>;
+            content = <Contact />;
             break;
 
         default:
