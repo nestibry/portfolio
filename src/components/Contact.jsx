@@ -16,7 +16,17 @@ export default function Resume() {
 
     async function handleFormSubmit(e) {
         e.preventDefault();
-        console.log(userData);
+
+        // Send Form data using EmailJS
+        try {
+            const response = await emailjs.send("service_y7btr62", "template_5fzghlh", { ...userData });
+            alert(`Thank you for reaching out, ${userData.name}. \n\nBryan will respond within 1-3 business days.`);
+        } catch (error) {
+            console.log(error);
+            alert('Error sending message. Please try again later.');
+        }
+
+        // Reset the form
         handleReset();
     }
 
