@@ -7,7 +7,7 @@ export default function Resume() {
     return (
         <div className='resume-container'>
             <div className='resume-card'>
-                <h3>Contact Me</h3>
+                <h3>Contact Form</h3>
                 <ul>
                     <li>Coming soon...</li>
                 </ul>
