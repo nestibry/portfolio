@@ -6,6 +6,7 @@ export const portfolio = [
         stack: 'MVC: Sequelize, Handlebars, Express.js, Express-Session',
         img: 'the-tech-blog-example.png',
         img_link: 'https://mysterious-basin-27960-f7cf6f2edc30.herokuapp.com/',
+        img_alt: 'Example of the Tech Blog web application as hosted on Heroku',
         app: 'https://mysterious-basin-27960-f7cf6f2edc30.herokuapp.com/',
         repo: 'https://github.com/nestibry/umnbc-mod14-mvc-tech-blog',
         demo: 'https://drive.google.com/file/d/17xze0yGHbymJomYxF7g4NTTApCZjhYZc/view'
@@ -17,6 +18,7 @@ export const portfolio = [
         stack: 'NoSQL: MongoDB, Mongoose, Express.js',
         img: 'social-network-api-demo-video-thumbnail.png',
         img_link: 'https://www.youtube.com/watch?v=mYROI-arFiY',
+        img_alt: 'A video thumbnail shows the api application in the insonmia applicaiton window.',
         app: '',
         repo: 'https://github.com/nestibry/umnbc-mod18-nosql-social-network-api',
         demo: 'https://www.youtube.com/watch?v=mYROI-arFiY'
@@ -28,6 +30,7 @@ export const portfolio = [
         stack: 'RESTful API, jQuery, Bootstrap',
         img: 'weather-dashboard-example.png',
         img_link: 'https://nestibry.github.io/umnbc-mod06-weather-dashboard/',
+        img_alt: 'Example usage of the Weather Dashboard application displaying the weather for Minneapolis, Minnesota',
         app: 'https://nestibry.github.io/umnbc-mod06-weather-dashboard/',
         repo: 'https://github.com/nestibry/umnbc-mod06-weather-dashboard',
         demo: ''
@@ -39,6 +42,7 @@ export const portfolio = [
         stack: 'HTML, CSS, JavaScript',
         img: 'coding-quiz-example.png',
         img_link: 'https://nestibry.github.io/umnbc-mod04-code-quiz/',
+        img_alt: 'Example image of the coding quiz with user selecting one of the questions answers',
         app: 'https://nestibry.github.io/umnbc-mod04-code-quiz/',
         repo: 'https://github.com/nestibry/umnbc-mod04-code-quiz',
         demo: ''
@@ -50,6 +54,7 @@ export const portfolio = [
         stack: 'MySQL, Node.js, Inquirer',
         img: 'employee-manager-demo-video-thumbnail.png',
         img_link: 'https://www.youtube.com/watch?v=R1OZm1962JI',
+        img_alt: 'A video thumbnail shows the command-line employee management application with a play button overlaying the view.',
         app: '',
         repo: 'https://github.com/nestibry/umnbc-mod12-mysql-employee-manager',
         demo: 'https://www.youtube.com/watch?v=R1OZm1962JI'
