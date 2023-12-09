@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import './Profile.css';
+import './Resume.css';
 
 export default function Resume() {
 
