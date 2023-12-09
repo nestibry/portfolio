@@ -17,6 +17,7 @@ export default function Resume() {
     async function handleFormSubmit(e) {
         e.preventDefault();
         console.log(userData);
+        handleReset();
     }
 
     return (
