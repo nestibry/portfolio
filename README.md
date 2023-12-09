@@ -5,7 +5,7 @@
 
 ## Description
 
-My profession portfolio made with React and Vite, hosted by Netlify.
+My profession portfolio was developed with React and Vite, hosted by Netlify.
 
 ## Table of Contents
 - [Usage](#usage)
