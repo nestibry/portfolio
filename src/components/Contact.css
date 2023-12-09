@@ -1,0 +1,75 @@
+.resume-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align: center;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: var(--black-and-blue);
+    border: 1px solid var(--black-and-blue);
+    overflow: hidden;
+}
+
+.resume-card h3 {
+    padding: 1rem 3rem;
+    color: var(--light-cyan);
+}
+
+.resume-card ul {
+    padding: 2rem 3rem;
+    background-color: var(--light-cyan);
+}
+
+.resume-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    background-color: var(--light-cyan);
+}
+
+.resume-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3rem;
+    min-width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: var(--dark-cyan);
+    color: var(--pale-cyan);
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.resume-icon:hover {
+    background-color: var(--pale-cyan);
+    color: var(--black-and-blue);
+}
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* @media screen and (min-width: 500px) { */
+
+@media screen and (min-width: 1300px) {
+
+
+
+    .resume-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .resume-card {
+        margin-bottom: .5rem;
+    }
+}
