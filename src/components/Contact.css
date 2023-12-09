@@ -46,8 +46,6 @@
 }
 
 
-
-
 .form-buttons {
     display: flex;
     flex-direction: row;
@@ -55,22 +53,16 @@
     align-items: center;
     gap: 2rem;
     padding: 2rem 3rem;
-    background-color: var(--light-cyan);
 }
 
 .form-buttons button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    font-size: 3rem;
-    min-width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 125px;
+    border-radius: 25px;
     background-color: var(--dark-cyan);
     color: var(--pale-cyan);
-    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -80,24 +72,11 @@
 }
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-/* @media screen and (min-width: 500px) { */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 992px) {
 
     .contact-card {
         width:55vw;
     }
 
-    .resume-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: center;
-        gap: 3rem;
-    }
-
-    .resume-card {
-        margin-bottom: .5rem;
-    }
 }
