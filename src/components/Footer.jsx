@@ -23,7 +23,7 @@ export default function Footer() {
                 </a>
             </div>
             <div className='footer-row' >
-                <a className='footer-copyright' target='_blank' rel='noopener noreferrer' href='https://vitejs.dev/'>Made with React + Vite</a>
+                <a className='footer-copyright' target='_blank' rel='noopener noreferrer' href='https://vitejs.dev/'>Made with React and Vite</a>
             </div>
             <div className='footer-row' >
                 <a className='footer-copyright' target='_blank' rel='noopener noreferrer' href='https://www.netlify.com/'>Hosted by Netlify</a>
