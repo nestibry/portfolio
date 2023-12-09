@@ -6,7 +6,7 @@ export default function Resume() {
 
     return (
         <div className='resume-container'>
-            <div className='tech-stack-card'>
+            <div className='resume-card'>
                 <h3>Tech Stack</h3>
                 <ul>
                     <li>HTML, CSS, JavaScript, Python, C#</li>
