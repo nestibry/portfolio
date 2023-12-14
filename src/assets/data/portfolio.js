@@ -1,9 +1,21 @@
 export const portfolio = [
     {
         id: 1,
+        name: 'Table Talk',
+        description: 'Where your LOVE for great FOOD meets the joy of new CONNECTIONS.',
+        stack: 'MERN: MongoDB, Express.js, React, Node.js (Heroku, Mongo Atlas, Cloudinary)',
+        img: 'table-talk-home.png',
+        img_link: 'https://table-talk-5dc7ec66643d.herokuapp.com/',
+        img_alt: 'Table Talk Homepage',
+        app: 'https://table-talk-5dc7ec66643d.herokuapp.com/',
+        repo: 'https://github.com/nestibry/table-talk',
+        demo: ''
+    },
+    {
+        id: 2,
         name: 'The Tech Blog',
         description: 'A CMS-style blog site to publish articles, blog posts, and thoughts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.',
-        stack: 'MVC: Sequelize, Handlebars, Express.js, Express-Session',
+        stack: 'MVC: Model (MySQL/Sequelize), View (Handlebars), Controller (Express.js, Express-Session)',
         img: 'the-tech-blog-example.png',
         img_link: 'https://mysterious-basin-27960-f7cf6f2edc30.herokuapp.com/',
         img_alt: 'Example of the Tech Blog web application as hosted on Heroku',
@@ -12,7 +24,7 @@ export const portfolio = [
         demo: 'https://drive.google.com/file/d/17xze0yGHbymJomYxF7g4NTTApCZjhYZc/view'
     },
     {
-        id: 2,
+        id: 3,
         name: 'Social Network API',
         description: `An API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list.`,
         stack: 'NoSQL: MongoDB, Mongoose, Express.js',
@@ -24,7 +36,7 @@ export const portfolio = [
         demo: 'https://www.youtube.com/watch?v=mYROI-arFiY'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Weather Dashboard',
         description: 'Retrieves and displays 5-day weather forecast for cities using the OpenWeather API.',
         stack: 'RESTful API, jQuery, Bootstrap',
@@ -36,7 +48,7 @@ export const portfolio = [
         demo: ''
     },
     {
-        id: 4,
+        id: 5,
         name: 'Coding Quiz',
         description: 'A timed multiple-choice coding assessment to simulate a coding assessment as part of an interview process.',
         stack: 'HTML, CSS, JavaScript',
@@ -48,7 +60,7 @@ export const portfolio = [
         demo: ''
     },
     {
-        id: 5,
+        id: 6,
         name: 'Employee Manager',
         description: `A command-line Content Management System (CMS) to manage a company's employee database, using Node.js, Inquirer, and MySQL.`,
         stack: 'MySQL, Node.js, Inquirer',
